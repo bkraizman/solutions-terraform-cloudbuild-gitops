@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "sada-borisk-sbx-tfstate"
     prefix = "env/prod"
   }
 }
